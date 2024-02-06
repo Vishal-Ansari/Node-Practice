@@ -5,6 +5,8 @@ require("dotenv").config();
 // app.use(express.json())
 const port = process.env.PORT;
 
+
+// Comment  changes practice 
 app.set("view engine", "ejs");
 app.use(bodyParser.json());
 app.use(
